@@ -1,0 +1,160 @@
+body {
+  background: #fbfbfd;
+  color: #1f2937;
+}
+
+.project-section {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+.project-section-alt {
+  background: #f3f6fb;
+}
+
+.section-heading {
+  margin-bottom: 1.5rem;
+}
+
+.section-note {
+  max-width: 760px;
+  margin: 0.5rem auto 0;
+  color: #5b6577;
+}
+
+.feature-figure {
+  margin: 0;
+}
+
+.feature-figure img {
+  display: block;
+  width: 100%;
+  border-radius: 18px;
+  border: 1px solid #d9e0ea;
+  box-shadow: 0 12px 30px rgba(15, 23, 42, 0.08);
+}
+
+.feature-figure figcaption {
+  margin-top: 0.85rem;
+  color: #5b6577;
+  text-align: center;
+}
+
+.abstract-copy {
+  font-size: 1.05rem;
+}
+
+.project-video-frame {
+  overflow: hidden;
+  border-radius: 18px;
+  border: 1px solid #d9e0ea;
+  box-shadow: 0 12px 30px rgba(15, 23, 42, 0.08);
+  background: #000;
+}
+
+.project-video-frame video {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.summary-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1.5rem;
+}
+
+.summary-card {
+  background: #fff;
+  border: 1px solid #d9e0ea;
+  border-radius: 18px;
+  padding: 1.25rem;
+  box-shadow: 0 10px 24px rgba(15, 23, 42, 0.06);
+}
+
+.summary-card img {
+  display: block;
+  width: 100%;
+  border-radius: 14px;
+  margin-bottom: 0.9rem;
+}
+
+.summary-card p {
+  margin-bottom: 0;
+}
+
+.demo-block + .demo-block {
+  margin-top: 3rem;
+}
+
+.demo-header {
+  margin-bottom: 1rem;
+}
+
+.demo-header p {
+  color: #5b6577;
+}
+
+.demo-carousel {
+  position: relative;
+  padding: 0 3rem 2.5rem;
+}
+
+.demo-carousel .item {
+  padding: 0.5rem;
+}
+
+.demo-card {
+  background: #fff;
+  border: 1px solid #d9e0ea;
+  border-radius: 18px;
+  overflow: hidden;
+  box-shadow: 0 10px 24px rgba(15, 23, 42, 0.06);
+}
+
+.demo-media {
+  background: #e9edf5;
+}
+
+.demo-media img,
+.demo-media video {
+  display: block;
+  width: 100%;
+  height: auto;
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+}
+
+.demo-copy {
+  padding: 1rem 1.1rem 1.2rem;
+}
+
+.demo-copy p {
+  margin-bottom: 0;
+  color: #4b5563;
+}
+
+.demo-carousel .slider-navigation-next,
+.demo-carousel .slider-navigation-previous {
+  border-color: #d9e0ea;
+}
+
+pre code {
+  white-space: pre-wrap;
+}
+
+@media screen and (max-width: 768px) {
+  .project-section {
+    padding-top: 2.25rem;
+    padding-bottom: 2.25rem;
+  }
+
+  .summary-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .demo-carousel {
+    padding-left: 2.4rem;
+    padding-right: 2.4rem;
+  }
+}
