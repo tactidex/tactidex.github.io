@@ -1,14 +1,14 @@
-# Nerfies
+# TactiDex
 
-This is the repository that contains source code for the [Nerfies website](https://nerfies.github.io).
+This is the repository that contains source code for the [TactiDex website](https://tactidex.github.io/).
 
-If you find Nerfies useful for your work please cite:
+If you find TactiDex useful for your work please cite:
 ```
-@article{park2021nerfies
-  author    = {Park, Keunhong and Sinha, Utkarsh and Barron, Jonathan T. and Bouaziz, Sofien and Goldman, Dan B and Seitz, Steven M. and Martin-Brualla, Ricardo},
-  title     = {Nerfies: Deformable Neural Radiance Fields},
-  journal   = {ICCV},
-  year      = {2021},
+@article{TactiDex2026,
+  author    = {Suting Ni, Hanbing Zhang, Zhenyu Wei, Guo Chen, Chixuan Zhang, Ye Shi, Jingya Wang},
+  title     = {TactiDex: A Real-World Tactile-Guided Benchmark for Human-Like Dexterous Manipulation},
+  journal   = {arXiv preprint arXiv:},
+  year      = {2026},
 }
 ```
 

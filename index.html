@@ -8,19 +8,6 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>TactiDex: A Real-World Tactile-Guided Benchmark for Human-Like Dexterous Manipulation</title>
 
-  <!-- Global site tag (gtag.js) - Google Analytics
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-PYVRSFMDRL"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-
-    function gtag() {
-      dataLayer.push(arguments);
-    }
-
-    gtag('js', new Date());
-
-    gtag('config', 'G-PYVRSFMDRL');
-  </script> -->
 
   <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
         rel="stylesheet">
@@ -42,46 +29,6 @@
 </head>
 <body>
 
-<!-- <nav class="navbar" role="navigation" aria-label="main navigation">
-  <div class="navbar-brand">
-    <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false">
-      <span aria-hidden="true"></span>
-      <span aria-hidden="true"></span>
-      <span aria-hidden="true"></span>
-    </a>
-  </div>
-  <div class="navbar-menu">
-    <div class="navbar-start" style="flex-grow: 1; justify-content: center;">
-      <a class="navbar-item" href="https://keunhong.com">
-      <span class="icon">
-          <i class="fas fa-home"></i>
-      </span>
-      </a>
-
-      <div class="navbar-item has-dropdown is-hoverable">
-        <a class="navbar-link">
-          More Research
-        </a>
-        <div class="navbar-dropdown">
-          <a class="navbar-item" href="https://hypernerf.github.io">
-            HyperNeRF
-          </a>
-          <a class="navbar-item" href="https://nerfies.github.io">
-            Nerfies
-          </a>
-          <a class="navbar-item" href="https://latentfusion.github.io">
-            LatentFusion
-          </a>
-          <a class="navbar-item" href="https://photoshape.github.io">
-            PhotoShape
-          </a>
-        </div>
-      </div>
-    </div>
-
-  </div>
-</nav> -->
-
 
 <section class="hero">
   <div class="hero-body">
@@ -91,28 +38,28 @@
           <h1 class="title is-1 publication-title">TactiDex: A Real-World Tactile-Guided Benchmark for Human-Like Dexterous Manipulation</h1>
           <div class="is-size-5 publication-authors">
             <span class="author-block">
-              <a href="https://scholar.google.com/citations?user=1lrtTzsAAAAJ&hl=zh-CN">Suting Ni</a><sup>1</sup>,</span>
+              <a href="https://scholar.google.com/citations?user=1lrtTzsAAAAJ&hl=zh-CN">Suting Ni</a>,</span>
             <span class="author-block">
-              <a href="https://scholar.google.com/citations?hl=zh-CN&user=H2MlIVAAAAAJ&view_op=list_works&authuser=5&gmla=AEk_c1sEkRo0RNjfHet31lampeEdnKyXwNUJABN-5l5jgv8XKMW34PKy_R30l-xlvAGVgO37dBcoeYIuJ8PH2lltX4TPFmpEpDFzZWUKsIZtlJ8qXt1zw2TYccy8FM5WR4cK7gaYmBXInE2qan4">Hanbing Zhang</a><sup>1</sup>,</span>
+              <a href="https://scholar.google.com/citations?hl=zh-CN&user=H2MlIVAAAAAJ&view_op=list_works&authuser=5&gmla=AEk_c1sEkRo0RNjfHet31lampeEdnKyXwNUJABN-5l5jgv8XKMW34PKy_R30l-xlvAGVgO37dBcoeYIuJ8PH2lltX4TPFmpEpDFzZWUKsIZtlJ8qXt1zw2TYccy8FM5WR4cK7gaYmBXInE2qan4">Hanbing Zhang</a>,</span>
             <span class="author-block">
-              <a href="https://arkitect-z.github.io/">Zhenyu Wei</a><sup>1</sup>,
+              <a href="https://arkitect-z.github.io/">Zhenyu Wei</a>,
             </span>
             <span class="author-block">
-              <a href="http://sofienbouaziz.com">Guo Chen</a><sup>1</sup>,
+              <a href="https://github.com/0Lachlan0">Guo Chen</a>,
             </span>
             <span class="author-block">
-              <a href="https://github.com/slbln">Chixuan Zhang</a><sup>1</sup>,
+              <a href="https://github.com/slbln">Chixuan Zhang</a>,
             </span>
             <span class="author-block">
-              <a href="https://shiye21.github.io/">Ye Shi</a><sup>1</sup>,
+              <a href="https://shiye21.github.io/">Ye Shi</a>,
             </span>
             <span class="author-block">
-              <a href="https://faculty.sist.shanghaitech.edu.cn/faculty/wangjingya/">Jingya Wang</a><sup>1</sup>
+              <a href="https://faculty.sist.shanghaitech.edu.cn/faculty/wangjingya/">Jingya Wang</a>,
             </span>
           </div>
 
           <div class="is-size-5 publication-authors">
-            <span class="author-block"><sup>1</sup>Shanghaitech University</span>
+            <span class="author-block">Shanghaitech University</span>
             <!-- <span class="author-block"><sup>2</sup>Google Research</span> -->
           </div>
 
@@ -139,7 +86,7 @@
               </span>
               <!-- Video Link. -->
               <span class="link-block">
-                <a href="./static/videos/TactiDex_Video.mp4" target="_blank"
+                <a href="#video-part"
                    class="external-link button is-normal is-rounded is-dark">
                   <span class="icon">
                       <i class="fas fa-play-circle"></i>
@@ -184,15 +131,14 @@
   <div class="container is-max-desktop">
     <div class="hero-body">
       <img src="./static/images/f1_dataset.png" alt="TactiDex Data Collection and Annotation Framework">
-      <h2 class="subtitle has-text-centered">
-        Overview of the TactiDex Data Collection and Annotation Framework. (Left) Our hardware setup integrates a 
-        high-precision motion capture system with a novel dual glove design—an inner capture glove for kinematics and
-        an outer tactile glove for whole-hand pressure mapping,strictly synchronized via an eSync module.
-         Manipulated objects are digitally reconstructed via 3D scanning. (Center) A user performs complex, 
-         contact-rich interactions (e.g., bimanual grinding) within the capture volume. (Right) The pipeline
-         yields strictly synchronized multi-modal data streams, including tactile signals, hand kinematics, and hand-object 6D
-         poses, enriched with comprehensive language descriptions and hierarchical task phase annotations.
-      </h2>
+      <div class="content has-text-justified" style="margin-top: 1.5rem; padding: 0 1rem;">
+        <p style="font-size: 1rem; line-height: 1.6; color: #4a4a4a;">
+          <b>Overview of the TactiDex Data Collection and Annotation Framework.</b> 
+          (Left) Our hardware setup integrates a high-precision motion capture system with a novel dual glove design—an inner capture glove for kinematics and an outer tactile glove for whole-hand pressure mapping, strictly synchronized via an eSync module. Manipulated objects are digitally reconstructed via 3D scanning. 
+          (Center) A user performs complex, contact-rich interactions (e.g., bimanual grinding) within the capture volume. 
+          (Right) The pipeline yields strictly synchronized multi-modal data streams, including tactile signals, hand kinematics, and hand-object 6D poses, enriched with comprehensive language descriptions and hierarchical task phase annotations.
+        </p>
+      </div>
     </div>
   </div>
 </section>
@@ -233,7 +179,8 @@
       <figure class="feature-figure">
         <img src="./static/images/f2_pipeline.png" alt="Overview pipeline figure.">
         <figcaption>
-          Overview of the TactiSkill Pipeline.(Left) Data Collection & Preparation: Raw multi-modal signals from human demonstrations undergo a two-stage tactile-constrained post-optimization and sensor-to-sim mapping, 
+          <b>Overview of the TactiSkill Pipeline.</b>
+          (Left) Data Collection & Preparation: Raw multi-modal signals from human demonstrations undergo a two-stage tactile-constrained post-optimization and sensor-to-sim mapping, 
           yielding the physically aligned TactiDex dataset. (Center) Tactile-Guided Tri-Component Transfer Framework: We train a residual tracking policy using an asymmetric Actor-Critic architecture, 
           where the Critic receives privileged simulated contact forces. A physics-aware tri-component reward (Tactile Guidance, Human-Like Alignment, and Contact Constraints) enforces force-level human-likeness. 
           (Right) Real-World Deployment: The composite policy enables zero-shot sim-to-real transfer, achieving physically grounded, human-like dexterous manipulation on actual robotic hardware across diverse tasks.
@@ -244,7 +191,7 @@
   <!-- Paper pipeline. -->
 
     <!-- Paper video. -->
-  <section class="section project-section project-section-alt">
+  <section class="section project-section project-section-alt" id="video-part">
     <div class="container is-max-desktop">
       <div class="section-heading has-text-centered">
         <h2 class="title is-3">Video</h2>
@@ -259,65 +206,80 @@
   </section>
     <!--/ Paper video. -->
 
-  <!-- Figure Results. -->
-  <section class="section project-section">
+  <!--/ Figure Results. -->
+  <section class="section">
     <div class="container is-max-desktop">
-      <div class="section-heading has-text-centered">
+      
+      <div class="section-heading has-text-centered" style="margin-bottom: 4rem;">
         <h2 class="title is-3">Key Figures from the Paper and Appendix</h2>
-        </div>
-
-      <div class="summary-grid">
-        <article class="summary-card">
-          <h3 class="title is-5">Demonstrations of the TactiDex Dataset.</h3>
-          <img src="./static/images/f3_dataset.png" alt="Dataset visualization figure.">
-          <p>
-            Multi-modal Human Demonstrations from the TactiDex Dataset. Each frame pairs the 3D kinematic hand-object interaction with
-            its synchronized tactile pressure heat map (where purple indicates low pressure and yellow indicates high pressure). These
-            sequences demonstrate how our dataset captures the precise, task-specific force distributions required for complex object manipulation.
-          </p>
-        </article>
-
-        <article class="summary-card">
-          <h3 class="title is-5">Simulation Results</h3>
-          <img src="./static/images/f4_sim.png" alt="Simulation results figure.">
-          <p>
-            Qualitative Results of TactiSkill. Transfer sequences for single-hand (LH/RH) and bimanual (BiH) tasks. Left: Optimized
-            human HOI reference and whole-hand tactile prior. Right (colored panels): Five-frame execution rollout of the simulated
-            dexterous hand. Guided by our tactile supervision, the policy establishes physically grounded contact, effectively avoiding unnatural hovering or penetrations.
-          </p>
-        </article>
-
-        <article class="summary-card">
-          <h3 class="title is-5">Real-World Results</h3>
-          <img src="./static/images/f5_realworld.png" alt="Real-world experiment figure.">
-          <p>
-            Real-world deployment on our bimanual Franka Inspire platform with contact-rich execution snapshots. 
-          </p>
-        </article>
-
-        <article class="summary-card">
-          <h3 class="title is-5">Qualitative Comparison</h3>
-          <img src="./static/images/f6_compare.png" alt="Qualitative comparison figure.">
-          <p>
-            Qualitative Comparison of Contact Quality
-          </p>
-        </article>
       </div>
+
+      <div class="columns is-centered" style="margin-bottom: 1rem;">
+        <div class="column is-full-width">
+          <h3 class="title is-4 has-text-centered" style="margin-bottom: 1.5rem;">Demonstrations of the TactiDex Dataset</h3>
+          <img src="./static/images/f3_dataset.png" alt="Dataset visualization figure." style="width: 100%; border-radius: 8px; box-shadow: 0 4px 15px rgba(0,0,0,0.1); margin-bottom: 1.5rem;">
+          <div class="content has-text-justified">
+            <p style="font-size: 1rem; line-height: 1.6; color: #4a4a4a;">
+              <b>Multi-modal Human Demonstrations from the TactiDex Dataset.</b> Each frame pairs the 3D kinematic hand-object interaction with its synchronized tactile pressure heat map (where purple indicates low pressure and yellow indicates high pressure). These sequences demonstrate how our dataset captures the precise, task-specific force distributions required for complex object manipulation.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <hr style="background-color: #dbdbdb; height: 1px; margin: 3rem 0;">
+
+      <div class="columns is-centered" style="margin-bottom: 1rem;">
+        <div class="column is-full-width">
+          <h3 class="title is-4 has-text-centered" style="margin-bottom: 1.5rem;">Simulation Results</h3>
+          <img src="./static/images/f4_sim.png" alt="Simulation results figure." style="width: 100%; border-radius: 8px; box-shadow: 0 4px 15px rgba(0,0,0,0.1); margin-bottom: 1.5rem;">
+          <div class="content has-text-justified">
+            <p style="font-size: 1rem; line-height: 1.6; color: #4a4a4a;">
+              <b>Qualitative Results of TactiSkill.</b> Transfer sequences for single-hand (LH/RH) and bimanual (BiH) tasks. Left: Optimized human HOI reference and whole-hand tactile prior. Right (colored panels): Five-frame execution rollout of the simulated dexterous hand. Guided by our tactile supervision, the policy establishes physically grounded contact, effectively avoiding unnatural hovering or penetrations.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <hr style="background-color: #dbdbdb; height: 1px; margin: 3rem 0;">
+
+      <div class="columns is-centered" style="margin-bottom: 1rem;">
+        <div class="column is-full-width">
+          <h3 class="title is-4 has-text-centered" style="margin-bottom: 1.5rem;">Real-World Results</h3>
+          <img src="./static/images/f5_realworld.png" alt="Real-world experiment figure." style="width: 100%; border-radius: 8px; box-shadow: 0 4px 15px rgba(0,0,0,0.1); margin-bottom: 1.5rem;">
+          <div class="content has-text-justified">
+            <p style="font-size: 1rem; line-height: 1.6; color: #4a4a4a;">
+              <b>Real-world Deployment.</b> Execution on our bimanual Franka Inspire platform with contact-rich execution snapshots.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <hr style="background-color: #dbdbdb; height: 1px; margin: 3rem 0;">
+
+      <div class="columns is-centered" style="margin-bottom: 1rem;">
+        <div class="column is-full-width">
+          <h3 class="title is-4 has-text-centered" style="margin-bottom: 1.5rem;">Qualitative Comparison</h3>
+          <img src="./static/images/f6_compare.png" alt="Qualitative comparison figure." style="width: 100%; border-radius: 8px; box-shadow: 0 4px 15px rgba(0,0,0,0.1); margin-bottom: 1.5rem;">
+          <div class="content has-text-justified">
+            <p style="font-size: 1rem; line-height: 1.6; color: #4a4a4a;">
+              <b>Qualitative Comparison of Contact Quality.</b> Frame-by-frame rollouts of LH (TelephoneHand), RH (PingPang), and
+BiH (KettleBlack) tasks. (Left) The kinematic-only baseline often results in unnatural hovering or severe mesh penetration, as
+explicitly highlighted by the red magnified views. (Right) Our TactiSkill policy seamlessly establishes flush, stable contact with
+diverse object geometries, effectively preventing physical artifacts as shown in the green magnified views.
+            </p>
+          </div>
+        </div>
+      </div>
+
     </div>
   </section>
   <!--/ Figure Results. -->
 
- <!--/ Demos.   -->
- <!-- <section class="section project-section project-section-alt">
-    <div class="container is-max-desktop">
-      <div class="section-heading has-text-centered">
-        <h2 class="title is-3">Demos</h2>
-        <p class="section-note">
-        </p>
-      </div>
-
-      <div class="hero-body">
+  <!--/ Dataset Demos. -->
+  <section class="hero is-light is-small">
+  <div class="hero-body">
     <div class="container">
+      
       <div class="section-heading has-text-centered" style="margin-bottom: 2rem;">
         <h2 class="title is-3">Dataset Demos</h2>
       </div>
@@ -325,236 +287,12 @@
       <div id="results-carousel" class="carousel results-carousel">
         
         <div class="item">
-          <video poster="" autoplay controls muted loop playsinline height="100%">
-            <source src="./static/videos/book0001-1068.mp4" type="video/mp4">
-          </video>
-          <div class="has-text-centered" style="padding: 10px;">
-            <h4 class="title is-6">Dataset Demo 1</h4>
-            <p>Left hand holds Book, right hand uses BookShelf to Book.</p>
-          </div>
-        </div>
-
-        <div class="item">
-          <video poster="" autoplay controls muted loop playsinline height="100%">
-            <source src="./static/videos/shovel0001-1126.mp4" type="video/mp4">
-          </video>
-          <div class="has-text-centered" style="padding: 10px;">
-            <h4 class="title is-6">Dataset Demo 2</h4>
-            <p>Pick up Spatula, perform Shovel, place back.</p>
-          </div>
-        </div>
-
-        <div class="item">
-          <video poster="" autoplay controls muted loop playsinline height="100%">
-            <source src="./static/videos/call0001-0757.mp4" type="video/mp4">
-          </video>
-          <div class="has-text-centered" style="padding: 10px;">
-            <h4 class="title is-6">Dataset Demo 3</h4>
-            <p>Left hold TelephoneHand, Right use Telephone to Call.</p>
-          </div>
-        </div>
-
-        <div class="item">
-          <video poster="" autoplay controls muted loop playsinline height="100%">
-            <source src="./static/videos/cook0001-1272.mp4" type="video/mp4">
-          </video>
-          <div class="has-text-centered" style="padding: 10px;">
-            <h4 class="title is-6">Dataset Demo 4</h4>
-            <p>Left hand holds Spoon, right hand uses Wok to Cook.</p>
-          </div>
-        </div>
-
-        <div class="item">
-          <video poster="" autoplay controls muted loop playsinline height="100%">
-            <source src="./static/videos/pingpang0001-1210.mp4" type="video/mp4">
-          </video>
-          <div class="has-text-centered" style="padding: 10px;">
-            <h4 class="title is-6">Dataset Demo 5</h4>
-            <p>Uses the left hand to grasp object PingPong, performs a play interaction, hovers, and places it back.</p>
-          </div>
-        </div>
-
-        <div class="item">
-          <video poster="" autoplay controls muted loop playsinline height="100%">
-            <source src="./static/videos/whitecup0001-0912.mp4" type="video/mp4">
-          </video>
-          <div class="has-text-centered" style="padding: 10px;">
-            <h4 class="title is-6">Dataset Demo 6</h4>
-            <p>Pick up PorcelainCup, lift, hover, and move right-left.</p>
-          </div>
-        </div>
-
-      </div>
-    </div>
-  </div> -->
-
-      <!-- <div class="demo-block">
-        <div class="demo-header">
-          <h3 class="title is-4">Simulation Results Demos</h3>
-          <p>Replace each card with a local mp4 and a one or two sentence takeaway.</p>
-        </div>
-
-        <div class="carousel demo-carousel">
-          <div class="item">
-            <article class="demo-card">
-              <div class="demo-media">
-                <video controls playsinline preload="metadata">
-                  <source src="./static/videos/book.mp4" type="video/mp4">
-                </video>
-              </div>
-              <div class="demo-copy">
-                <h4 class="title is-6">Simulation Demo 1</h4>
-                <p>TODO: Describe the scenario, policy, and result shown in this simulation clip.</p>
-              </div>
-            </article>
-          </div>
-
-          <div class="item">
-            <article class="demo-card">
-              <div class="demo-media">
-                <video controls playsinline preload="metadata">
-                  <source src="./static/videos/coffee.mp4" type="video/mp4">
-                </video>
-              </div>
-              <div class="demo-copy">
-                <h4 class="title is-6">Simulation Demo 2</h4>
-                <p>TODO: Describe another task, result, or comparison in simulation.</p>
-              </div>
-            </article>
-          </div>
-
-          <div class="item">
-            <article class="demo-card">
-              <div class="demo-media">
-                <video controls playsinline preload="metadata">
-                  <source src="./static/videos/steve.mp4" type="video/mp4">
-                </video>
-              </div>
-              <div class="demo-copy">
-                <h4 class="title is-6">Simulation Demo 3</h4>
-                <p>TODO: Add a third simulation example or duplicate more cards if you need a longer carousel.</p>
-              </div>
-            </article>
-          </div>
-        </div>
-      </div>
-
-      <div class="demo-block">
-        <div class="demo-header">
-          <h3 class="title is-4">Real-World Demos</h3>
-          <p>Use this carousel for real-robot videos, failure cases, or side-by-side outcomes.</p>
-        </div>
-
-        <div class="carousel demo-carousel">
-          <div class="item">
-            <article class="demo-card">
-              <div class="demo-media">
-                <video controls playsinline preload="metadata">
-                  <source src="./static/videos/fullbody.mp4" type="video/mp4">
-                </video>
-              </div>
-              <div class="demo-copy">
-                <h4 class="title is-6">Real-World Demo 1</h4>
-                <p>TODO: Replace with a short explanation of the real robot setup and result.</p>
-              </div>
-            </article>
-          </div>
-
-          <div class="item">
-            <article class="demo-card">
-              <div class="demo-media">
-                <video controls playsinline preload="metadata">
-                  <source src="./static/videos/chair-tp.mp4" type="video/mp4">
-                </video>
-              </div>
-              <div class="demo-copy">
-                <h4 class="title is-6">Real-World Demo 2</h4>
-                <p>TODO: Replace with another real-world task or hardware condition.</p>
-              </div>
-            </article>
-          </div>
-
-          <div class="item">
-            <article class="demo-card">
-              <div class="demo-media">
-                <video controls playsinline preload="metadata">
-                  <source src="./static/videos/toby2.mp4" type="video/mp4">
-                </video>
-              </div>
-              <div class="demo-copy">
-                <h4 class="title is-6">Real-World Demo 3</h4>
-                <p>TODO: Replace with a third real-world demo, or show a failure / recovery case.</p>
-              </div>
-            </article>
-          </div>
-        </div>
-      </div>
-
-      <div class="demo-block">
-        <div class="demo-header">
-          <h3 class="title is-4">Qualitative Comparison Demos (Optional)</h3>
-          <p>Keep this block if you also want video-based method comparisons. Delete it if you only need three demo groups.</p>
-        </div>
-
-        <div class="carousel demo-carousel">
-          <div class="item">
-            <article class="demo-card">
-              <div class="demo-media">
-                <video controls playsinline preload="metadata">
-                  <source src="./static/videos/blueshirt.mp4" type="video/mp4">
-                </video>
-              </div>
-              <div class="demo-copy">
-                <h4 class="title is-6">Comparison Demo 1</h4>
-                <p>TODO: Describe what baseline or ablation is being compared here.</p>
-              </div>
-            </article>
-          </div>
-
-          <div class="item">
-            <article class="demo-card">
-              <div class="demo-media">
-                <video controls playsinline preload="metadata">
-                  <source src="./static/videos/shiba.mp4" type="video/mp4">
-                </video>
-              </div>
-              <div class="demo-copy">
-                <h4 class="title is-6">Comparison Demo 2</h4>
-                <p>TODO: Explain the visual difference the viewer should notice.</p>
-              </div>
-            </article>
-          </div>
-
-          <div class="item">
-            <article class="demo-card">
-              <div class="demo-media">
-                <video controls playsinline preload="metadata">
-                  <source src="./static/videos/mask.mp4" type="video/mp4">
-                </video>
-              </div>
-              <div class="demo-copy">
-                <h4 class="title is-6">Comparison Demo 3</h4>
-                <p>TODO: Add another baseline, ablation, or side-by-side result if useful.</p>
-              </div>
-            </article>
-          </div> -->
-        <!-- </div>
-      </div>
-    </div>
-  </section> -->
-  <!--/ Demos. -->
-
-  <div id="results-carousel" class="carousel results-carousel">
-        
-        <div class="item">
-          <div class="card" style="margin: 10px; border-radius: 10px; overflow: hidden; box-shadow: 0 4px 15px rgba(0,0,0,0.05);">
-            <div class="card-image">
-              <video poster="" autoplay controls muted loop playsinline width="100%" style="display: block;">
-                <source src="./static/videos/book0001-1068.mp4" type="video/mp4">
-              </video>
-            </div>
-            <div class="card-content" style="display: flex; align-items: center; justify-content: center; padding: 1.5rem; min-height: 100px; background-color: #fff;">
-              <p style="font-size: 1.1rem; line-height: 1.4; color: #363636; margin: 0; text-align: center; font-weight: 500;">
+          <div style="padding: 0 10px;">
+            <video poster="" autoplay controls muted loop playsinline width="100%" style="border-radius: 8px; display: block;">
+              <source src="./static/videos/book0001-1068.mp4" type="video/mp4">
+            </video>
+            <div class="has-text-centered" style="padding-top: 15px; min-height: 80px;">
+              <p style="font-size: 1.15rem; line-height: 1.4; color: #333; font-weight: 500; margin: 0;">
                 Left hand holds Book, right hand uses BookShelf to Book.
               </p>
             </div>
@@ -562,14 +300,12 @@
         </div>
 
         <div class="item">
-          <div class="card" style="margin: 10px; border-radius: 10px; overflow: hidden; box-shadow: 0 4px 15px rgba(0,0,0,0.05);">
-            <div class="card-image">
-              <video poster="" autoplay controls muted loop playsinline width="100%" style="display: block;">
-                <source src="./static/videos/shovel0001-1126.mp4" type="video/mp4">
-              </video>
-            </div>
-            <div class="card-content" style="display: flex; align-items: center; justify-content: center; padding: 1.5rem; min-height: 100px; background-color: #fff;">
-              <p style="font-size: 1.1rem; line-height: 1.4; color: #363636; margin: 0; text-align: center; font-weight: 500;">
+          <div style="padding: 0 10px;">
+            <video poster="" autoplay controls muted loop playsinline width="100%" style="border-radius: 8px; display: block;">
+              <source src="./static/videos/shovel0001-1126.mp4" type="video/mp4">
+            </video>
+            <div class="has-text-centered" style="padding-top: 15px; min-height: 80px;">
+              <p style="font-size: 1.15rem; line-height: 1.4; color: #333; font-weight: 500; margin: 0;">
                 Pick up Spatula, perform Shovel, place back.
               </p>
             </div>
@@ -577,14 +313,12 @@
         </div>
 
         <div class="item">
-          <div class="card" style="margin: 10px; border-radius: 10px; overflow: hidden; box-shadow: 0 4px 15px rgba(0,0,0,0.05);">
-            <div class="card-image">
-              <video poster="" autoplay controls muted loop playsinline width="100%" style="display: block;">
-                <source src="./static/videos/call0001-0757.mp4" type="video/mp4">
-              </video>
-            </div>
-            <div class="card-content" style="display: flex; align-items: center; justify-content: center; padding: 1.5rem; min-height: 100px; background-color: #fff;">
-              <p style="font-size: 1.1rem; line-height: 1.4; color: #363636; margin: 0; text-align: center; font-weight: 500;">
+          <div style="padding: 0 10px;">
+            <video poster="" autoplay controls muted loop playsinline width="100%" style="border-radius: 8px; display: block;">
+              <source src="./static/videos/call0001-0757.mp4" type="video/mp4">
+            </video>
+            <div class="has-text-centered" style="padding-top: 15px; min-height: 80px;">
+              <p style="font-size: 1.15rem; line-height: 1.4; color: #333; font-weight: 500; margin: 0;">
                 Left hold TelephoneHand, Right use Telephone to Call.
               </p>
             </div>
@@ -592,14 +326,12 @@
         </div>
 
         <div class="item">
-          <div class="card" style="margin: 10px; border-radius: 10px; overflow: hidden; box-shadow: 0 4px 15px rgba(0,0,0,0.05);">
-            <div class="card-image">
-              <video poster="" autoplay controls muted loop playsinline width="100%" style="display: block;">
-                <source src="./static/videos/cook0001-1272.mp4" type="video/mp4">
-              </video>
-            </div>
-            <div class="card-content" style="display: flex; align-items: center; justify-content: center; padding: 1.5rem; min-height: 100px; background-color: #fff;">
-              <p style="font-size: 1.1rem; line-height: 1.4; color: #363636; margin: 0; text-align: center; font-weight: 500;">
+          <div style="padding: 0 10px;">
+            <video poster="" autoplay controls muted loop playsinline width="100%" style="border-radius: 8px; display: block;">
+              <source src="./static/videos/cook0001-1272.mp4" type="video/mp4">
+            </video>
+            <div class="has-text-centered" style="padding-top: 15px; min-height: 80px;">
+              <p style="font-size: 1.15rem; line-height: 1.4; color: #333; font-weight: 500; margin: 0;">
                 Left hand holds Spoon, right hand uses Wok to Cook.
               </p>
             </div>
@@ -607,15 +339,187 @@
         </div>
 
         <div class="item">
+          <div style="padding: 0 10px;">
+            <video poster="" autoplay controls muted loop playsinline width="100%" style="border-radius: 8px; display: block;">
+              <source src="./static/videos/pingpang0001-1210.mp4" type="video/mp4">
+            </video>
+            <div class="has-text-centered" style="padding-top: 15px; min-height: 80px;">
+              <p style="font-size: 1.15rem; line-height: 1.4; color: #333; font-weight: 500; margin: 0;">
+                Uses the left hand to grasp object PingPong, performs a play interaction, hovers, and places it back.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="item">
+          <div style="padding: 0 10px;">
+            <video poster="" autoplay controls muted loop playsinline width="100%" style="border-radius: 8px; display: block;">
+              <source src="./static/videos/whitecup0001-0912.mp4" type="video/mp4">
+            </video>
+            <div class="has-text-centered" style="padding-top: 15px; min-height: 80px;">
+              <p style="font-size: 1.15rem; line-height: 1.4; color: #333; font-weight: 500; margin: 0;">
+                Pick up PorcelainCup, lift, hover, and move right-left.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="item">
+          <div style="padding: 0 10px;">
+            <video poster="" autoplay controls muted loop playsinline width="100%" style="border-radius: 8px; display: block;">
+              <source src="./static/videos/keyboard0001-0868.mp4" type="video/mp4">
+            </video>
+            <div class="has-text-centered" style="padding-top: 15px; min-height: 80px;">
+              <p style="font-size: 1.15rem; line-height: 1.4; color: #333; font-weight: 500; margin: 0;">
+                Pick up Keyboard with both hands, lift, hover, and place back.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="item">
+          <div style="padding: 0 10px;">
+            <video poster="" autoplay controls muted loop playsinline width="100%" style="border-radius: 8px; display: block;">
+              <source src="./static/videos/lid0001-0786.mp4" type="video/mp4">
+            </video>
+            <div class="has-text-centered" style="padding-top: 15px; min-height: 80px;">
+              <p style="font-size: 1.15rem; line-height: 1.4; color: #333; font-weight: 500; margin: 0;">
+                Left hold BeakerLid, Right use Beaker to Lid.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="item">
+          <div style="padding: 0 10px;">
+            <video poster="" autoplay controls muted loop playsinline width="100%" style="border-radius: 8px; display: block;">
+              <source src="./static/videos/cuppink0001-0923.mp4" type="video/mp4">
+            </video>
+            <div class="has-text-centered" style="padding-top: 15px; min-height: 80px;">
+              <p style="font-size: 1.15rem; line-height: 1.4; color: #333; font-weight: 500; margin: 0;">
+                Pick up CupRed, perform Drink, place back.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="item">
+          <div style="padding: 0 10px;">
+            <video poster="" autoplay controls muted loop playsinline width="100%" style="border-radius: 8px; display: block;">
+              <source src="./static/videos/stamp0001-0951.mp4" type="video/mp4">
+            </video>
+            <div class="has-text-centered" style="padding-top: 15px; min-height: 80px;">
+              <p style="font-size: 1.15rem; line-height: 1.4; color: #333; font-weight: 500; margin: 0;">
+                Left hand holds Seal, Right hand uses SealInk to Stamp.
+              </p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</section>
+<!--/ Dataset Demos. -->
+
+<!--/ Sim Demos. -->
+<section class="section">
+  <div class="container is-max-desktop">
+    
+    <div class="section-heading has-text-centered" style="margin-bottom: 2rem;">
+      <h2 class="title is-3">Simulation Demos</h2>
+    </div>
+
+    <div id="sim-carousel" class="carousel results-carousel">
+      
+      <div class="item">
+        <div class="card" style="margin: 10px; border-radius: 10px; overflow: hidden; box-shadow: 0 4px 15px rgba(0,0,0,0.05);">
+          <div class="card-image">
+            <video poster="" autoplay controls muted loop playsinline width="100%" style="display: block;">
+              <source src="./static/videos/sim/inspect0080-1080.mkv" type="video/mp4">
+            </video>
+          </div>
+          <div class="card-content" style="display: flex; align-items: center; justify-content: center; padding: 1.5rem; min-height: 100px; background-color: #fff;">
+            <p style="font-size: 1.1rem; line-height: 1.4; color: #363636; margin: 0; text-align: center; font-weight: 500;">
+              Pick up Book, rotate forward and backward, place back.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="item">
+        <div class="card" style="margin: 10px; border-radius: 10px; overflow: hidden; box-shadow: 0 4px 15px rgba(0,0,0,0.05);">
+          <div class="card-image">
+            <video poster="" autoplay controls muted loop playsinline width="100%" style="display: block;">
+              <source src="./static/videos/sim/keyboard0001-1286.mkv" type="video/mp4">
+            </video>
+          </div>
+          <div class="card-content" style="display: flex; align-items: center; justify-content: center; padding: 1.5rem; min-height: 100px; background-color: #fff;">
+            <p style="font-size: 1.1rem; line-height: 1.4; color: #363636; margin: 0; text-align: center; font-weight: 500;">
+              Pick up Keyboard with both hands, lift, hover, and place back.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="item">
+        <div class="card" style="margin: 10px; border-radius: 10px; overflow: hidden; box-shadow: 0 4px 15px rgba(0,0,0,0.05);">
+          <div class="card-image">
+            <video poster="" autoplay controls muted loop playsinline width="100%" style="display: block;">
+              <source src="./static/videos/sim/squeeze0350-1300.mkv" type="video/mp4">
+            </video>
+          </div>
+          <div class="card-content" style="display: flex; align-items: center; justify-content: center; padding: 1.5rem; min-height: 100px; background-color: #fff;">
+            <p style="font-size: 1.1rem; line-height: 1.4; color: #363636; margin: 0; text-align: center; font-weight: 500;">
+              Pick up SauceBottle, Squeeze, place back.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="item">
+        <div class="card" style="margin: 10px; border-radius: 10px; overflow: hidden; box-shadow: 0 4px 15px rgba(0,0,0,0.05);">
+          <div class="card-image">
+            <video poster="" autoplay controls muted loop playsinline width="100%" style="display: block;">
+              <source src="./static/videos/sim/stamp0001-0900.mkv" type="video/mp4">
+            </video>
+          </div>
+          <div class="card-content" style="display: flex; align-items: center; justify-content: center; padding: 1.5rem; min-height: 100px; background-color: #fff;">
+            <p style="font-size: 1.1rem; line-height: 1.4; color: #363636; margin: 0; text-align: center; font-weight: 500;">
+              Left hand holds Seal, Right hand uses SealInk to Stamp.
+            </p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+<!--/ Sim Demos. -->
+
+<!--/ Real-World Demos. -->
+<section class="hero is-light is-small">
+  <div class="hero-body">
+    <div class="container">
+      
+      <div class="section-heading has-text-centered" style="margin-bottom: 2rem;">
+        <h2 class="title is-3">Real-World Demos</h2>
+        <p class="subtitle is-6" style="color: #666; margin-top: 0.5rem;">
+        </p>
+      </div>
+
+      <div id="real-carousel" class="carousel results-carousel">
+        
+        <div class="item">
           <div class="card" style="margin: 10px; border-radius: 10px; overflow: hidden; box-shadow: 0 4px 15px rgba(0,0,0,0.05);">
             <div class="card-image">
               <video poster="" autoplay controls muted loop playsinline width="100%" style="display: block;">
-                <source src="./static/videos/pingpang0001-1210.mp4" type="video/mp4">
+                <source src="./static/videos/real_world/play.mp4" type="video/mp4">
               </video>
             </div>
-            <div class="card-content" style="display: flex; align-items: center; justify-content: center; padding: 1.5rem; min-height: 100px; background-color: #fff;">
-              <p style="font-size: 1.1rem; line-height: 1.4; color: #363636; margin: 0; text-align: center; font-weight: 500;">
-                Uses the left hand to grasp object PingPong, performs a play interaction, hovers, and places it back.
+            <div class="card-content" style="display: flex; align-items: center; justify-content: center; padding: 1.5rem; min-height: 80px; background-color: #fff;">
+              <p style="font-size: 1.15rem; line-height: 1.4; color: #363636; margin: 0; text-align: center; font-weight: 500;">
+                RH - Play PingPong
               </p>
             </div>
           </div>
@@ -625,19 +529,127 @@
           <div class="card" style="margin: 10px; border-radius: 10px; overflow: hidden; box-shadow: 0 4px 15px rgba(0,0,0,0.05);">
             <div class="card-image">
               <video poster="" autoplay controls muted loop playsinline width="100%" style="display: block;">
-                <source src="./static/videos/whitecup0001-0912.mp4" type="video/mp4">
+                <source src="./static/videos/real_world/inspect.mp4" type="video/mp4">
               </video>
             </div>
-            <div class="card-content" style="display: flex; align-items: center; justify-content: center; padding: 1.5rem; min-height: 100px; background-color: #fff;">
-              <p style="font-size: 1.1rem; line-height: 1.4; color: #363636; margin: 0; text-align: center; font-weight: 500;">
-                Pick up PorcelainCup, lift, hover, and move right-left.
+            <div class="card-content" style="display: flex; align-items: center; justify-content: center; padding: 1.5rem; min-height: 80px; background-color: #fff;">
+              <p style="font-size: 1.15rem; line-height: 1.4; color: #363636; margin: 0; text-align: center; font-weight: 500;">
+                LH - Inspect Beaker
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="item">
+          <div class="card" style="margin: 10px; border-radius: 10px; overflow: hidden; box-shadow: 0 4px 15px rgba(0,0,0,0.05);">
+            <div class="card-image">
+              <video poster="" autoplay controls muted loop playsinline width="100%" style="display: block;">
+                <source src="./static/videos/real_world/drink.mp4" type="video/mp4">
+              </video>
+            </div>
+            <div class="card-content" style="display: flex; align-items: center; justify-content: center; padding: 1.5rem; min-height: 80px; background-color: #fff;">
+              <p style="font-size: 1.15rem; line-height: 1.4; color: #363636; margin: 0; text-align: center; font-weight: 500;">
+                RH - Drink Water
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="item">
+          <div class="card" style="margin: 10px; border-radius: 10px; overflow: hidden; box-shadow: 0 4px 15px rgba(0,0,0,0.05);">
+            <div class="card-image">
+              <video poster="" autoplay controls muted loop playsinline width="100%" style="display: block;">
+                <source src="./static/videos/real_world/pour.mp4" type="video/mp4">
+              </video>
+            </div>
+            <div class="card-content" style="display: flex; align-items: center; justify-content: center; padding: 1.5rem; min-height: 80px; background-color: #fff;">
+              <p style="font-size: 1.15rem; line-height: 1.4; color: #363636; margin: 0; text-align: center; font-weight: 500;">
+                LH - Pour Water
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="item">
+          <div class="card" style="margin: 10px; border-radius: 10px; overflow: hidden; box-shadow: 0 4px 15px rgba(0,0,0,0.05);">
+            <div class="card-image">
+              <video poster="" autoplay controls muted loop playsinline width="100%" style="display: block;">
+                <source src="./static/videos/real_world/eat.mp4" type="video/mp4">
+              </video>
+            </div>
+            <div class="card-content" style="display: flex; align-items: center; justify-content: center; padding: 1.5rem; min-height: 80px; background-color: #fff;">
+              <p style="font-size: 1.15rem; line-height: 1.4; color: #363636; margin: 0; text-align: center; font-weight: 500;">
+                RH - Eat Apple
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="item">
+          <div class="card" style="margin: 10px; border-radius: 10px; overflow: hidden; box-shadow: 0 4px 15px rgba(0,0,0,0.05);">
+            <div class="card-image">
+              <video poster="" autoplay controls muted loop playsinline width="100%" style="display: block;">
+                <source src="./static/videos/real_world/call.mp4" type="video/mp4">
+              </video>
+            </div>
+            <div class="card-content" style="display: flex; align-items: center; justify-content: center; padding: 1.5rem; min-height: 80px; background-color: #fff;">
+              <p style="font-size: 1.15rem; line-height: 1.4; color: #363636; margin: 0; text-align: center; font-weight: 500;">
+                LH - Make a Phone Call
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="item">
+          <div class="card" style="margin: 10px; border-radius: 10px; overflow: hidden; box-shadow: 0 4px 15px rgba(0,0,0,0.05);">
+            <div class="card-image">
+              <video poster="" autoplay controls muted loop playsinline width="100%" style="display: block;">
+                <source src="./static/videos/real_world/cook.mp4" type="video/mp4">
+              </video>
+            </div>
+            <div class="card-content" style="display: flex; align-items: center; justify-content: center; padding: 1.5rem; min-height: 80px; background-color: #fff;">
+              <p style="font-size: 1.15rem; line-height: 1.4; color: #363636; margin: 0; text-align: center; font-weight: 500;">
+                BiH - Pour Sauce
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="item">
+          <div class="card" style="margin: 10px; border-radius: 10px; overflow: hidden; box-shadow: 0 4px 15px rgba(0,0,0,0.05);">
+            <div class="card-image">
+              <video poster="" autoplay controls muted loop playsinline width="100%" style="display: block;">
+                <source src="./static/videos/real_world/cut.mp4" type="video/mp4">
+              </video>
+            </div>
+            <div class="card-content" style="display: flex; align-items: center; justify-content: center; padding: 1.5rem; min-height: 80px; background-color: #fff;">
+              <p style="font-size: 1.15rem; line-height: 1.4; color: #363636; margin: 0; text-align: center; font-weight: 500;">
+                BiH - Cut Pineapple
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="item">
+          <div class="card" style="margin: 10px; border-radius: 10px; overflow: hidden; box-shadow: 0 4px 15px rgba(0,0,0,0.05);">
+            <div class="card-image">
+              <video poster="" autoplay controls muted loop playsinline width="100%" style="display: block;">
+                <source src="./static/videos/real_world/lid.mp4" type="video/mp4">
+              </video>
+            </div>
+            <div class="card-content" style="display: flex; align-items: center; justify-content: center; padding: 1.5rem; min-height: 80px; background-color: #fff;">
+              <p style="font-size: 1.15rem; line-height: 1.4; color: #363636; margin: 0; text-align: center; font-weight: 500;">
+                BiH - Open the Lid
               </p>
             </div>
           </div>
         </div>
 
       </div>
-
+    </div>
+  </div>
+</section>
+<!--/ Real-World Demos. -->
 
 
 <section class="section" id="BibTeX">
